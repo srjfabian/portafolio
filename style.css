@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2 family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+  
+.contenedor-nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #122f44;
+    justify-content: space-between;
+
+}
+.buscador{
+    padding: 5px;
+}
+.b.button{
+    margin: 0;
+    border: none;
+    padding: 5px;
+}
+.contenedor-menu{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-navegador{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.menu-navegador a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.menu-navegador a:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.contenido{
+    min-height: 480px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #38496a;
+    align-items: center;
+}
+
+.presentacion{
+    text-align: center;
+    align-items: center;
+    color: white;    
+}
+.presentacion > *{
+    margin-bottom: 1rem;
+}
+.contenido__imagen{
+    padding: 2rem;
+}
+.contenido__imagen img{
+    width: 100%;
+}
+.myButton {
+    background-color: red;
+    border-radius: 28px;
+    border: 1px solid red;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-family: var(--font-style);
+    display: block;
+    margin-top: 25px;
+    width: 105px;
+}
+ 
+img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+  }
+
+  body {
+    background-color: #38496a;
+    background: #38496a;
+}
+.carousel{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    background-color: #122f44;
+}
+.myButton{
+    text-align: center;
+}
+
+.fondo{
+    background-color: #38496a;
+}
